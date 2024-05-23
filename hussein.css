@@ -1,0 +1,52 @@
+.row{
+    height: 20vh;
+   
+    margin-top: 60px;
+   
+}
+#row1{
+    margin-bottom: 60px;
+}
+h3{
+    width: 200px;
+}
+main{
+ 
+    height: 100vh;
+}
+
+img{
+    cursor: pointer;
+    border-radius: 25px;
+    animation-name: soura;
+    animation-duration: 3s;
+ 
+
+    
+}
+#soura :hover{
+   animation-name: soura;
+   animation-duration: 3s;
+   width: 200px;
+
+
+}
+body{
+    background-color: #ceffeb;
+}
+
+@keyframes soura {
+    50%{
+        
+        transform: rotate(360deg);
+    }
+    
+    
+}
+@keyframes soura2 {
+   to{
+    transform: translateX(200px);
+   }
+
+    
+}
